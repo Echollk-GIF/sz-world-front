@@ -1,7 +1,7 @@
 <template>
-    <div></div>
+    <div>{{ isMobileTerminal }}</div>
 </template>
 
-<script setup></script>
-
-<style lang="scss" scoped></style>
+<script setup>
+import { isMobileTerminal } from './utils/flexible';
+</script>
